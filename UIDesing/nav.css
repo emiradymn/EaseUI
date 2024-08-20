@@ -1,0 +1,249 @@
+nav {
+    height: 8%;
+    background-color: #F8F9FCDB;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.nav-logo {
+    width: 10%;
+    height: auto;
+    display: flex;
+    margin-left: 3%;
+    align-items: center;
+    z-index: 9999;
+}
+
+.nav-logo img {
+    width: 30%;
+    height: 30%;
+    margin-right: 0px;
+}
+
+.nav-logo h1 {
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: 100;
+    color: #14213D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nav-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.nav-tittle:hover{
+    color: #FCA311;
+}
+.nav-tittle p {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #14213D;
+}
+
+.nav-btn {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-btn button {
+    height: 40px;
+    margin-right: 20px;
+    width: auto;
+
+}
+
+.nav-btn :nth-child(1) {
+    background-color: white;
+    border: 2px solid #14213D;
+    color: #14213D;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-btn :nth-child(1):hover {
+    background-color: #fca311;
+    color: white;
+    border: none;
+}
+
+.nav-btn :nth-child(2) {
+    background-color: #14213D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 0 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav-btn :nth-child(2):hover {
+    background-color: #fca311;
+    color: white;
+
+}
+footer{
+    width: 100%;
+    height: 33%;
+    background-color: #14213D;
+  
+}
+.footer-logo-area{
+    display: flex;
+    align-items: center;
+}
+.footer-logo-area p{
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #F8F9FC;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 20px;
+}
+.footer-area{
+    display: flex;
+    margin: 2% 5%;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.footer-logo img{
+    width: 100%;
+    height: auto;
+}
+.footer-1{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.footer-1 h2{
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #F8F9FC;
+    font-size: 24px;
+}
+.footer-1 p{
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #F8F9FC;
+    font-size: 14px;
+}
+.social-media-area{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-1 .social-media{
+    width: 27px;
+    height: 27px;
+    overflow: hidden;
+    
+}
+.social-media img{
+    width: 100%;
+    height: 100%;
+}
+.footer-2{
+    width: 30%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #F8F9FC;
+}
+.footer-2 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-3{
+    width: 30%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #F8F9FC;
+}
+.communication{
+    display: flex;
+    align-items: center;    
+    color: #F8F9FC;
+}
+
+.communication i{
+  font-size: 20px;
+    color: #F8F9FC;
+    margin-right: 15px;
+}
+.subscription-container {
+    width: 350px;
+    height: 55px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #F8F9FC;
+}
+
+.email-input {
+   
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    flex: 1;
+}
+
+.email-input::placeholder {
+    color: #b0b0b0;
+}
+
+.subscribe-button {
+    background-color: #FCA311;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #14213D;
+    cursor: pointer;
+    outline: none;
+}
+
+.subscribe-button:hover {
+    background-color: #e69500;
+}
+.footer-end{
+    width: 50%;
+    height: auto;
+    margin-left: 71px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #F8F9FC;
+    font-size: 14px;
+}
